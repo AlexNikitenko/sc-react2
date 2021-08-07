@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <Switch>
         <Route exact path="/dashboard/" component={() => <Dashboard />} />
-        <Route exact path="/dashboard/main" component={() => <Main />} />
+        <Route exact path="/dashboard/main/" component={() => <Main />} />
         <Route exact path="/dashboard/profile/:user" component={() => <User />} />
       </Switch>
     </div>
