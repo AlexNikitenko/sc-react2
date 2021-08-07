@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import Header from './header'
 import Dashboard from './dashboard'
 import Main from './main'
-import User from './user'
+import Profile from './profile'
 import Head from './head'
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
           <Switch>
             <Route exact path="/dashboard" component={() => <Dashboard />} />
             <Route exact path="/dashboard/main" component={() => <Main />} />
-            <Route exact path="/dashboard/profile/:user" component={() => <User />} />
+            <Route exact path="/dashboard/profile/:user" component={() => <Profile />} />
           </Switch>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Head from './head'
 
-const User = () => {
+const Profile = () => {
   const { user } = useParams()
   return (
     <div>
@@ -19,6 +19,6 @@ const User = () => {
   )
 }
 
-User.propTypes = {}
+Profile.propTypes = {}
 
-export default User
+export default Profile
