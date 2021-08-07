@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 
-const Profile = () => {
+const DashboardProfile = () => {
   const { user } = useParams()
   return (
     <div>
@@ -17,6 +17,6 @@ const Profile = () => {
   )
 }
 
-Profile.propTypes = {}
+DashboardProfile.propTypes = {}
 
-export default Profile
+export default DashboardProfile
