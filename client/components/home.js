@@ -1,9 +1,9 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Header from './header'
+import Dashboard from './dashboard'
 import Main from './main'
 import User from './user'
-import Dashboard from './dashboard'
 
 const Home = () => {
   return (
