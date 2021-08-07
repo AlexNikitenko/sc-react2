@@ -6,13 +6,13 @@ const Profile = () => {
   return (
     <div>
       <div id="title">Profile</div>
+      <div id="username">{user}</div>
       <div>
         <Link to="/dashboard">Go To Root</Link>
       </div>
       <div>
         <Link to="/dashboard/main">Go To Main</Link>
       </div>
-      <div id="username">{user}</div>
     </div>
   )
 }
