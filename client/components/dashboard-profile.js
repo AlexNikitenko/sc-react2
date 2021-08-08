@@ -24,6 +24,4 @@ const DashboardProfile = () => {
   )
 }
 
-DashboardProfile.propTypes = {}
-
 export default DashboardProfile

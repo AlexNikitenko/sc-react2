@@ -22,6 +22,4 @@ const DashboardMain = () => {
   )
 }
 
-DashboardMain.propTypes = {}
-
 export default DashboardMain
